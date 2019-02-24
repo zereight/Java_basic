@@ -1,22 +1,18 @@
+import java.io.FileNotFoundException;
+import java.util.Scanner;
 
 public class Main {
 
     public static void main(String[] args) {
         
-        int a = 100;
-        while (a>0) {
-            a--;
-            //while
-        }
-        for (int i =0 ; i<a; i++) {
-            //for
-        }
+        //User input
+        Scanner sc1 = new Scanner(System.in);
+        System.out.print("input integer: ");
 
-        //for each(iterator)
-        String[] str_arr = {"aa","bb","cc"};
-        for(String temp: str_arr) {
-            System.out.println(temp);
-        }
+        int i = sc1.nextInt();
+        System.out.println(i);
+
+        sc1.close();
 
         
 
