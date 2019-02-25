@@ -1,15 +1,6 @@
-public class Dog implements Animal{
-
+public class Dog extends Animal {
     public Dog() {
-        //this is contructor
+        name = "Dog";
+        bark = "mung mung";
     }
-
-    public void Crying() {
-        System.out.println("Cryiingsadsad");
-    }
-
-    public void Kill() {
-        System.out.println("killlllll");
-    }
-    
 }
