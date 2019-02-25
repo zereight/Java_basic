@@ -1,13 +1,15 @@
 public class Main {
     public static void main(String[] args) {
         
-        Animal a = new Dog();
-        Animal b = new Cow();
-        Animal c = new Animal();
-        a.print();
-        b.print();
-        c.print();
-        
+        try {
+            //something
+
+            //force error
+            throw new Exception();
+        } catch (Exception e) {
+            System.out.println(e);
+        }
+
 
     }
 }
